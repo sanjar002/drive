@@ -1,0 +1,77 @@
+.section8 {
+    margin-top: 100px;
+}
+
+.ssylka-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ssylka-footer a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffbf69;
+    margin-left: 50px;
+}
+
+.phone-tel {
+    
+}
+
+.ul_obsh {
+    font-size: 17px;
+    font-weight: 600;
+    list-style: none;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.ul_obsh li {
+    padding-left: -100px;
+}
+
+.obshiy-icons {
+    display: flex;
+    gap: 20px;
+    float: right;
+    margin-top: -100px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+
+.icons {
+    transition: all 1s;
+}
+
+.icons:hover{
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.icons-telega {
+    transition: all 1s;
+}
+
+.icons-telega:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.icons-whats {
+    transition: all 1s;
+}
+
+.icons-whats:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+
+/* @media (max-width: 768px) and (min-width: 662px) {
+    .obshiy-icons {
+      font-size: 25px;
+
+  }
+} */

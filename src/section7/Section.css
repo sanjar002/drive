@@ -1,0 +1,152 @@
+.section7-text {
+    margin-top: 100px;
+    color: #fff;
+}
+
+.input-p input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.p-inpit input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.text-nami {
+    height: 250px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.section7-span {
+    color: #ffbf69;
+}
+
+.section7-input input{
+    width: 385px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 23px;
+}
+
+label {
+    color: red;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.section7-btn {
+    width: 385px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.arrow span {
+    width: 110px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    };
+    50% {
+        opacity: 1;
+    };
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    };
+}
+
+.images-carss {
+    width: 600px;
+    position: absolute;
+    top: 40px;
+    right: 23px;
+    /* color: red; */
+}
+
+.znak {
+    width: 300px;
+    position: absolute;
+    right: -100px;
+    top: -280px;
+    rotate: -90deg;
+    /* font-size: 100px; */
+}
+/* 
+@media (max-width: 1100px) and (min-width:768px) {
+    .images-carss {
+        padding-top: 180px;
+        padding-left: 50px;
+        width: 300px;
+    }
+    .btn-posled {
+        margin-left: 40px;
+    }
+    .znak {
+        display: none;
+    }
+    .arrow {
+        margin-left: 110px;
+    }
+}
+
+
+@media (max-width: 1100px) and (min-width:992px) {
+    .images-carss {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1101px) {
+    .images-carss {
+        width: 500px;
+        margin-right: -50px;
+        margin-top: 100px;
+    }
+    .znak {
+        top: -220px;
+        width: 280px;
+    }
+}
+
+
+@media (max-width: 768px) and (min-width: 414px) {
+    .images-carss {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+} */

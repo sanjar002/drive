@@ -1,0 +1,115 @@
+.section2 {
+    height: 500px;
+    margin-bottom: 100px;
+    background-position: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section2-text {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.boxes {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 4px solid #3d405b;
+    background: #fff;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxes:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.boxes_ob {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box_text {
+    font-size: 23px;
+    font-weight: 700;
+    border-bottom: 3px solid #3d405b;
+    text-align: center;
+    color: #3d405b;
+    /* padding-bottom: -40px; */
+    width: 269px;
+    /* margin-top: 30px; */
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box-text-span {
+    color: #3d405b;
+    /* float: right; */
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.box_title {
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+
+}
+
+ul {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 17px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Media Fila */
+/* 
+@media (max-width: 1100px) and (min-width:768px) {
+    .boxes_ob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 963px) and (min-width: 1070px) {
+    .boxes_ob {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 414px) {
+    .boxes_ob {
+        display: flex;
+        flex-direction: column;
+    } 
+    .section2 {
+        height: 1200px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 414px) {
+    .section2-text {
+        font-size: 25px;
+        margin-left: -130px;
+    }
+    .boxes_ob {
+        margin-left: 40px;
+    }
+} */
+

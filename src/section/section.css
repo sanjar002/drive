@@ -1,0 +1,256 @@
+.section_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top:50px;
+}
+
+.section_div {
+    height: 860;
+} 
+
+.wrapper {
+    color: #fff;
+}
+.logo-wrapper {
+    /* width: 1190px; */
+    height: 400px;
+    margin-left: -30px;
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+}
+
+.boxes-second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ANIMATION_MASHINA */
+.mash{
+    width: 100px;
+    transition: all 1.5s;
+}
+.mash:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.bus{
+    width: 100px;
+    transition: all 1.5s;
+}
+.bus:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.kamaz {
+    width: 100px;
+    transition: all 1.5s;
+}
+.kamaz:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.avtobusspric {
+    width: 170px;
+    transition: all 1.5s;
+}
+.avtobusspric:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.universal {
+    width: 100px;   
+    transition: all 1.5s;
+}
+.universal:hover {
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+/*ANIMATION_MASHINA THE_END */
+
+.kategoriy {
+    margin-left: 150px; 
+}
+
+.kategoriy  span {
+    color: #ffbf69;
+    font-size: 30px;
+}
+
+.kategoriy-b {
+    margin-top: -50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriy_2 {
+    margin-top: -70px;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriy-d span {
+    color: #ffbf69;
+    font-size: 30px;
+}
+
+.kategoriy-ce {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriy-ce span  {
+    color: #ffbf69;
+    font-size: 30px;
+}
+
+.box-one3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.box-one4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.kategoriy-de {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriy-de span {
+     color: #ffbf69;
+     font-size: 30px;
+}
+
+.boxes-five {
+    display: flex;
+} 
+
+.obchiy {
+    display: flex;
+    gap: 85px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.box-one5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.kategoriy-bc {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategoriy-bc span {
+    color: #ffbf69;
+     font-size: 30px;
+}
+
+.block-2-section8 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    /* padding-right: 30px; */
+    /* margin-left: -30px; */
+    gap: 40px;
+    margin: 0px; 
+}
+
+.div-tire {
+    width: 1px;
+    height: 250px;
+    background: white;
+    margin: 0;
+}
+
+/* Meadia file */
+/* 
+@media (max-width: 1100px) and (min-width:768px)  {
+    .obchiy {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        gap: 0px;
+    } 
+    .section_logo  {
+        color: #fff;
+        margin-left: -550px;
+    }
+    .div-tire {
+        display: none;
+    }
+    .obchiy {
+        margin-left: -600px;
+    }
+    .logo-wrapper {
+        height: 530px;
+        background: none;
+    }
+    .boxes-foure {
+        margin-bottom: -30px;
+    }
+    .boxes-sixe {
+        margin-top: -30px;
+    }
+}
+
+
+@media (max-width: 1200px) and (min-width:1101px) {
+    .logo-wrapper {
+        margin-left: -80px;
+        width: 1090px;
+        height: 400px;
+    }
+    .block-2-section8 {
+        margin-left: -100px;
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 414px) {
+    .obchiy {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        gap: 0px;
+    } 
+    .div-tire {
+        display: none;
+    }
+    .section_logo  {
+        font-size: 20px;
+        color: #fff;
+        margin-left: -736px;
+    }
+    .obchiy {
+        margin-left: -100px;
+    }
+    .logo-wrapper {
+        height: 530px;
+        background: none;
+    }
+    .boxes-foure {
+        margin-bottom: -30px;
+    }
+    .boxes-sixe {
+        margin-top: -30px;
+    }
+} */

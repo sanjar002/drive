@@ -1,0 +1,59 @@
+.section3-text {
+    align-items: center;
+    color: #fff;
+}
+
+.section3_text {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section3-img {
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+    margin-top: -159px;
+}
+
+.section3-logo {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section3-btn {
+    margin-left: -1px;
+}
+
+/* Media Fila */
+/* 
+@media (max-width: 1100px) and (min-width:768px) {
+    .section3-obchiyyy {
+        margin-top: 670px;
+    }
+    .section3-img {
+        margin-right: -1px;
+    }
+    .section3-img img {
+        width: 200px;
+    }
+    .section3-btn {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 414px) {
+    .section3-logo {
+        font-size: 35px;
+    }
+    .section3_text {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .section3-btn {
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .section3-img {
+        display: none;
+    }
+} */

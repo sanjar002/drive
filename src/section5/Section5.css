@@ -1,0 +1,78 @@
+.section5-logo {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.section5_text2 {
+    margin-left: 10px;
+    color: #ffbf69;
+}
+
+.section5_text {
+    display: flex;
+    justify-content: center;
+}
+
+.section5-text {
+    display: flex;
+    justify-content: center;
+}
+
+.section5-text2 {
+    color: #ffbf69;
+    margin-left: 10px;
+}
+
+.span-perezvon {
+    color: #ffbf69;
+}
+
+.span-vopros {
+    color: #fff;
+}
+
+/* MEdia file */
+/* 
+@media (max-width: 1100px) and (min-width:768px)  {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section5-flex {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1100px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 414px) {
+    .section5_text {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    .section5-text {
+        font-size: 25px;
+        margin-left: -100px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+} */
+
+
+
+
+/* ========================================================== */
+
+
